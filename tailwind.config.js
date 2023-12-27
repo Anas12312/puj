@@ -11,13 +11,7 @@ export default {
         'primary-2': '#61625c'
       },
       fontFamily: {
-        'Mouse-Memoirs': [  '"Mouse Memoirs"' , 'sans-serif'],
-        'Bungee-Spice': ['"Bungee Spice"', 'sans-serif'],
-        'DotGothic16': ['"DotGothic16"', 'sans-serif'] ,
-        'Roadway': ['"Roadway"', 'sans-serif'] ,
-        'Urban-Melted': ['"Urban Melted"'] ,
-        'Urban-Melted-Extrude': ['"Urban Melted Extrude"'] ,
-        'Next-Bravo': ['"Next-Bravo"']
+        'Lexend': [  '"Lexend"' , 'sans-serif'],
       }
     },
     

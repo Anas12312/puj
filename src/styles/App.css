@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: 'Next-Bravo';
+    font-family: 'Lexend';
     font-style: normal;
     font-weight: normal;
-    src: local('Next-Bravo'), url('./fonts/Next-Bravo.woff') format('woff');
+    src: local('Lexend'), url('../../public/Lexend/Lexend-VariableFont_wght.ttf') format('ttf');
 }
 
 
@@ -16,8 +16,8 @@
               
     }
     .nav-bar-item {
-        @apply flex justify-center items-center p-1 mx-2 text-[#61625c]
-                hover:cursor-pointer hover:text-white font-bold transition-all ease-linear duration-150 font-mono
+        @apply flex justify-center items-center p-1 mx-2 text-[#61625c] font-Lexend text-sm
+                hover:cursor-pointer hover:text-white font-bold transition-all ease-linear duration-150
     }
     .trans {
         @apply transition-all ease-linear duration-300
