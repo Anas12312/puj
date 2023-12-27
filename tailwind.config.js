@@ -8,10 +8,10 @@ export default {
     extend: {
       colors: {
         'primary-1': '#376ac3',
-        'primary-2': '#235AB9'
+        'primary-2': '#61625c'
       },
       fontFamily: {
-        'Mouse Memoirs': [  '"Mouse Memoirs"' , 'sans-serif'],
+        'Mouse-Memoirs': [  '"Mouse Memoirs"' , 'sans-serif'],
         'Bungee-Spice': ['"Bungee Spice"', 'sans-serif'],
         'DotGothic16': ['"DotGothic16"', 'sans-serif'] ,
         'Roadway': ['"Roadway"', 'sans-serif'] ,
