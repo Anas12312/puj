@@ -22,9 +22,11 @@
     .trans {
         @apply transition-all ease-linear duration-300
     }
+
     .nav-bar-buy-now {
-        @apply flex justify-center items-center border rounded-xl text-white bg-[#121d28]
-                p-2 px-5 mx-5 cursor-pointer absolute right-6
+        @apply flex justify-center items-center border border-slate-700 rounded-xl 
+                p-2  hover:cursor-pointer hover:bg-slate-500 absolute right-6 bg-clip-text
+                bg-gradient-to-r from-[#0EA2C5] to-[#C7F284] text-transparent font-bold  w-28 h-11
     } 
     
 }   
