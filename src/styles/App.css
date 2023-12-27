@@ -17,7 +17,7 @@
     }
     .nav-bar-item {
         @apply flex justify-center items-center p-1 mx-2 text-[#61625c]
-                hover:cursor-pointer hover:text-white
+                hover:cursor-pointer hover:text-white font-bold
     }
     .trans {
         @apply transition-all ease-linear duration-300

@@ -13,9 +13,7 @@ function App() {
 
   return (
     <div className='h-screen w-screen overflow-x-hidden'>
-      <Navbar 
-        scrollToMainRef={scrollToMainRef}
-      />
+      
       <div className='w-full h-full' ref={mainRef}>
         <Main />
       </div>
