@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Next-Bravo';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Next-Bravo'), url('./fonts/Next-Bravo.woff') format('woff');
+}
+
+
+@layer components {
+    .nav-bar {
+       @apply w-full h-[18%] bg-primary-1 shadow-sm shadow-gray-900 flex justify-center items-center
+              
+    }
+    .nav-bar-item {
+        @apply text-white flex justify-center items-center text-3xl p-1 mx-2
+                hover:cursor-pointer hover:text-gray-300 font-Next-Bravo
+    }
+    .trans {
+        @apply transition-all ease-linear duration-300
+    }
+    .nav-bar-buy-now {
+        @apply flex justify-center items-center border rounded-3xl text-white
+                p-2 px-5 mx-5 text-xl hover:cursor-pointer hover:bg-slate-500
+    } 
+    
+}   
+
+
+
+
+
