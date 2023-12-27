@@ -12,19 +12,19 @@
 
 @layer components {
     .nav-bar {
-       @apply w-full h-[18%] bg-primary-1 shadow-sm shadow-gray-900 flex justify-center items-center
+       @apply w-full h-[12%] flex justify-start items-center
               
     }
     .nav-bar-item {
-        @apply text-white flex justify-center items-center text-3xl p-1 mx-2
-                hover:cursor-pointer hover:text-gray-300 font-Next-Bravo
+        @apply flex justify-center items-center p-1 mx-2 text-[#61625c]
+                hover:cursor-pointer hover:text-white
     }
     .trans {
         @apply transition-all ease-linear duration-300
     }
     .nav-bar-buy-now {
-        @apply flex justify-center items-center border rounded-3xl text-white
-                p-2 px-5 mx-5 text-xl hover:cursor-pointer hover:bg-slate-500
+        @apply flex justify-center items-center border rounded-xl text-white bg-[#121d28]
+                p-2 px-5 mx-5 hover:cursor-pointer hover:bg-slate-500 absolute right-6
     } 
     
 }   

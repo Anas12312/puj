@@ -16,7 +16,7 @@ function App() {
       <Navbar 
         scrollToMainRef={scrollToMainRef}
       />
-      <div className='w-full' ref={mainRef}>
+      <div className='w-full h-full' ref={mainRef}>
         <Main />
       </div>
       <div>

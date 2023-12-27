@@ -12,6 +12,7 @@ export default function Main() {
           <div className='absolute left-[10%] text-white'>
             aa
           </div>
+
         </div>
   )
 }
